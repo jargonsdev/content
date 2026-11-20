@@ -1,12 +1,12 @@
 # jargons.dev Content
 
-This repository contains the content published by [jargons.dev](https://jargons.dev), a community-maintained dictionary of software engineering and technology terms.
+This repository contains learning content published by [jargons.dev](https://jargons.dev), a developer literacy and education platform. It aims to make software development concepts easier to understand through a growing range of resources, not just dictionary definitions.
 
-The content is kept separate from the website application so contributors can propose content changes without changing application code. The site is being connected to this repository through Astro's content layer.
+Content is kept separate from the website application so contributors can propose and maintain learning resources without changing application code. The site is being connected to this repository through Astro's content layer.
 
 ## Content Structure
 
-Content is grouped by type:
+Content is grouped by content type:
 
 ```text
 dictionary/  Dictionary entries in MDX (available now)
@@ -28,7 +28,7 @@ title: "Example Term"
 Explain the term in clear, direct language. Add examples where they help readers understand it.
 ```
 
-Keep entries focused and accessible. Use headings and lists to organize longer explanations, and fenced code blocks with a language identifier for code examples. Do not add Astro layout paths, page URLs, or other application-specific presentation settings; the website controls how content is rendered.
+Keep entries focused and accessible. Use headings and lists to organize longer explanations, and fenced code blocks with a language identifier for code examples. Do not add Astro layout paths, page URLs, or other application-specific presentation settings; the website controls how content is rendered. Guidance for additional resource types will be added as those collections are introduced.
 
 ## Contributing
 
@@ -37,7 +37,7 @@ Keep entries focused and accessible. Use headings and lists to organize longer e
 3. Check that filenames, frontmatter, and content follow the category's documented format.
 4. Open a pull request against `main` and describe the content change.
 
-You do not need to modify or run the jargons.dev application to contribute dictionary content. The in-app editor is being updated to submit contributions to this repository; until that integration is available, submit a pull request here.
+You do not need to modify or run the jargons.dev application to contribute content. The in-app editor is being updated to submit contributions to this repository; until that integration is available, submit a pull request here.
 
 ## Publishing
 
